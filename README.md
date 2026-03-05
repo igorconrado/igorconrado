@@ -1,4 +1,4 @@
-# Hi, I'm Igor 👋
+# Hi, I'm Igor 
 
 Backend developer and Software Engineering student at IBMEC BH, focused on building real systems — not just tutorials.
 
@@ -9,11 +9,11 @@ Backend developer and Software Engineering student at IBMEC BH, focused on build
 
 ## What I'm doing
 
-- 🎓 Software Engineering @ IBMEC BH
-- 🤖 President of IbBot — robotics academic league
-- ⚡ President of IbTech — technology academic league  
-- 🔬 Scientific Initiation in Quantum Computing (Qiskit, hybrid classical-quantum algorithms)
-- ☕ Java Elite postgraduate program (Spring Boot, Quarkus, Langchain4j)
+- Software Engineering @ IBMEC BH
+- President of IbBot — robotics academic league
+- President of IbTech — technology academic league  
+- Scientific Initiation in Quantum Computing (Qiskit, hybrid classical-quantum algorithms)
+- Java Elite postgraduate program (Spring Boot, Quarkus, Langchain4j)
 
 ## Stack
 ```
