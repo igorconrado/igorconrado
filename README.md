@@ -1,39 +1,54 @@
-# Hi, I'm Igor
+# Igor Conrado
 
-Backend Software Engineer and Software Engineering student at IBMEC BH, focused on building real systems with Java, Spring Boot, Node.js, TypeScript, and PostgreSQL.
+**Senior Full Stack Software Engineer**
 
-## What I'm working on
+I build full-stack products with TypeScript, React, Next.js, Node.js and Python, with a focus on data consistency, reliable integrations and controlled AI workflows. My portfolio connects implementation to executable tests, recovery experiments and architectural decisions.
 
-- Software Engineering at IBMEC BH
-- Backend engineering with Java and Spring Boot
-- Automated testing, SQL, system design, and cloud infrastructure
-- Scientific Initiation in Quantum Computing using Python and Qiskit
-- Java Elite postgraduate program
+[Portfolio](https://igorconrado.dev) · [LinkedIn](https://www.linkedin.com/in/igorconrado/) · [Email](mailto:contact@igorconrado.dev)
 
-## Stack
+## Selected engineering work
 
-Backend: Java · Spring Boot · Node.js · Fastify · TypeScript  
-Databases: PostgreSQL · Redis · Sequelize · Prisma  
-Frontend: React · Next.js · Tailwind CSS  
-Tools: Docker · Git · Swagger  
-Research: Python · Qiskit
+### Commerce Operations
 
-## Selected projects
+A transactional commerce application built with **Next.js, TypeScript, GraphQL, PostgreSQL and Redis/BullMQ**.
 
-| Project | Stack | Description |
-|---|---|---|
-| [fintrack-api](https://github.com/igorconrado/fintrack-api) | Java · Spring Boot · PostgreSQL | Personal finance REST API with JWT authentication, budgets, and monthly summaries |
-| [urlsnap-api](https://github.com/igorconrado/urlsnap-api) | Java · Spring Boot · Redis | URL shortener with caching, click analytics, and rate limiting |
-| [featureflags-api](https://github.com/igorconrado/featureflags-api) | Java · Spring Boot · PostgreSQL | Feature flag platform with gradual rollout, audit logs, and an evaluation engine |
-| [shopflow-api](https://github.com/igorconrado/shopflow-api) | Node.js · Express · TypeScript · Prisma | E-commerce API with role-based access, carts, transactional checkout, and stock control |
-| [finwise-agent](https://github.com/igorconrado/finwise-agent) | Node.js · TypeScript · Claude API | Financial analysis agent with human review in the decision flow |
-| [quantum-logistics](https://github.com/igorconrado/quantum-logistics-case10) | TypeScript · Python · Qiskit · Next.js | Hybrid quantum-classical solver for vehicle routing using QUBO and QAOA |
-| [quantum-computing-research](https://github.com/igorconrado/quantum-computing-university-project) | Python · Qiskit · Jupyter | University research exploring quantum algorithms, benchmarks, and practical experiments |
+- Concurrent stock reservations with a reproducible 100-request / 10-unit correctness experiment.
+- Transactional outbox/inbox, idempotent processing and payment reconciliation after worker failure.
+- Organization-scoped authorization, query batching and tested database restoration.
 
-## Previous product work
+[Code](https://github.com/igorconrado/commerce-operations) · [Recorded demo](https://github.com/igorconrado/commerce-operations/blob/main/docs/demo/commerce-flow.webm) · [Architecture](https://github.com/igorconrado/commerce-operations/blob/main/docs/architecture.md) · [Verification](https://github.com/igorconrado/commerce-operations/blob/main/docs/verification.md) · [CI](https://github.com/igorconrado/commerce-operations/actions)
 
-I helped build and take [Vecto](https://vectoapp.com) to production. The platform connected habits, tasks, finances, health, studies, and work through a modular life-management system built with Node.js, TypeScript, PostgreSQL, and Next.js.
+### Agent Review Workbench
 
-## Let's connect
+An operational review application built with **Next.js, Python, FastAPI, LangGraph and PostgreSQL**, with independently tested restricted **MCP** tools.
 
-[LinkedIn](https://linkedin.com/in/igorconrado)
+- Human decisions bound to the exact action and context version, with authorization rechecked before execution.
+- Persistent checkpoints and recovery after process failure without duplicating a sandbox effect.
+- A 60-case synthetic evaluation of deterministic decisions and controlled effects.
+
+[Code](https://github.com/igorconrado/agent-review-workbench) · [Recorded demo](https://github.com/igorconrado/agent-review-workbench/blob/main/docs/demo/review-flow.webm) · [Architecture](https://github.com/igorconrado/agent-review-workbench/blob/main/docs/architecture.md) · [Evaluation](https://github.com/igorconrado/agent-review-workbench/blob/main/docs/reports/evaluation.md) · [CI](https://github.com/igorconrado/agent-review-workbench/actions)
+
+Both projects are independent demonstrations with synthetic data and documented AI assistance. Their local flows and CI checks are verified within the published scope. Commerce AWS infrastructure is statically validated, not deployed. Workbench's default workflow is deterministic; live-model comparison and subjective human scoring remain pending.
+
+**Review the evidence:** [capability → implementation → test → result → limitation](https://github.com/igorconrado/commerce-operations/blob/main/docs/evidence.md).
+
+## Product and research
+
+**[Vecto](https://vectoapp.com)** — My personal planning and organization product, connecting tasks, habits, studies and other areas of daily life. The application provides product context; its source repository is private. [Product case](https://igorconrado.dev/projects/vecto).
+
+**[Quantum Logistics](https://github.com/igorconrado/quantum-logistics-case10)** — An experimental Next.js/Python application comparing classical TSP solvers with exact classical evaluation of a QUBO model on small instances. It documents algorithmic limits and reproducible experiments; it does not claim quantum hardware execution or quantum advantage. [Application](https://quantum-logistics-case10.vercel.app).
+
+**[URLSnap](https://github.com/igorconrado/urlsnap-api)** — Additional Java/Spring Boot backend work.
+
+## Technical focus
+
+| Area | Technologies and practices |
+| --- | --- |
+| Full-stack development | TypeScript, React, Next.js, Node.js, Python |
+| APIs and data | GraphQL, PostgreSQL, transactions, Redis, background jobs |
+| Reliability | Idempotency, concurrency, reconciliation, failure recovery |
+| Controlled automation | LangGraph, MCP, human approval, evaluation datasets |
+| Delivery | Docker, GitHub Actions, reproducible checks; Terraform/AWS configuration |
+| Additional work | Java, Spring Boot, algorithm experiments with Qiskit |
+
+Professional experience and product case studies are available on my [portfolio](https://igorconrado.dev) and [LinkedIn](https://www.linkedin.com/in/igorconrado/). The repositories above demonstrate current technical work; they do not reproduce employer systems or business results.
